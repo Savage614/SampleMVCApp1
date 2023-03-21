@@ -30,6 +30,7 @@ namespace WebApplication1.Controllers
         public ActionResult ViewPage1()
         {
             ViewBag.Message = "View Page 1.";
+            //test
 
             return View();
         }
