@@ -1,12 +1,16 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url('images/flyfisherman.jpg');
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
 }
-
-/* Set padding to keep content from hitting the edges */
+jumbotron /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-color:aqua;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -20,5 +24,121 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 580px;
+}
+
+/*overrides for default ASP.Net page*/
+
+.navbar-collapse .btn
+{
+    margin-top:.55em;
+}
+.navbar-inverse {
+    background-color: #9d5174;
+    box-shadow: 0px 2px 1px #3f693f;
+    border-bottom: none;
+}
+
+
+.navbar-inverse .navbar-nav > li > a 
+{
+   color: #f4eaf4;
+}
+.navbar-inverse a.navbar-brand 
+{
+   color: #eaf4ea;
+}
+#mainContent
+{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron
+{
+    background-image: url('images/Rainbow-trout-scales-bg1.png');
+    background-size: cover;
+    color: #f4eaf4;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom:2em;
+}
+
+.jumbotron .lead 
+{
+        background-color: #f4eaf4;
+        opacity: .85;
+        color: #9d5174;
+        width: 60%;
+        margin:auto;
+        padding:1em;
+        text-align:left;
+        border-bottom-left-radius: 7%;
+        border-bottom-right-radius:7%;
+    }
+
+ .jumbotron h1 
+{
+        background-color: #187a18;
+        border-top-left-radius: 7%;
+        border-top-right-radius: 7%;
+        opacity: .8;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        font-size: 4em;
+}
+
+#postContainer 
+{
+    width: 40em;
+    opacity:.9;
+}
+
+    #postContainer ul .postList {
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        list-style-type: none;
+        border-bottom: 2px solid silver;
+        background-color: #eaf4ea;
+    }
+
+.postText {
+    margin: 1em;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    color: #3f693f;
+}
+
+#postContainer ul .postList a 
+ {
+     text-decoration:none;
+     color:darkgreen;
+ }
+
+    #postContainer ul .postList a img {
+        border-radius: 5%;
+        box-shadow: 5px 5px 5px #999;
+    }
+#postContainer ul .postList a span 
+{
+    margin-left:1em;
+    vertical-align:top;
+}
+
+.row
+{
+    margin-left:2.5em;
+}
+footer p
+{
+    margin-left:2.5em;
+}
+
+/*secondary pages*/
+.secondary
+{
+    margin-left:2.5em;
 }
